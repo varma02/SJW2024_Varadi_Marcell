@@ -54,6 +54,10 @@ tr {
 	border-bottom: solid #000 1px;
 }
 
+tr:hover {
+	background-color: rgba(18, 132, 185, 0.6);
+}
+
 .table-head-1 {
 	background-color: var(--lightblue);
 	text-align: center;
