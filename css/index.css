@@ -76,7 +76,7 @@ tr:hover {
 	color: var(--darkblue);
 	font-weight: bold;
 	padding: 1rem;
-	min-width: 20rem;
+	font-variant: small-caps;
 }
 
 .image-grid .big-img {
@@ -108,21 +108,20 @@ tr:hover {
 }
 
 footer {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	
-	padding: 5rem 0 2rem 0;
+	position: relative;
 	margin-top: 1rem;
-	
-	background: url(../img/wave.svg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: bottom;
 
+}
+
+footer h3 {
 	font-family: "Marhey", sans-serif;
 	color: var(--white);
 	text-shadow: #000 0 5px 10px;
+	position: absolute;
+	bottom: 1.5rem;
+	left: 0;
+	width: 100%;
+	text-align: center;
 }
 
 @media screen and (max-width: 992px) {
