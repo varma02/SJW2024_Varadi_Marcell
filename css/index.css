@@ -22,6 +22,7 @@ header h1 {
 	text-transform: uppercase;
 	color: var(--white);
 	text-shadow: #000 0 5px 10px;
+	text-align: center;
 }
 
 nav {
@@ -103,7 +104,7 @@ tr:hover {
 
 .image-grid img:hover {
   filter: grayscale(0);
-  transform: scale(1.04);
+  transform: scale(1.03);
   cursor: pointer;
 }
 
@@ -124,6 +125,13 @@ footer h3 {
 	text-align: center;
 }
 
-@media screen and (max-width: 992px) {
-	
+@media screen and (max-width: 768px) {
+	header h1 {
+		scale: 0.8;
+	}
+
+	footer h3 {
+		bottom: 0.2rem;
+		padding: 0 1rem;
+	}
 }
