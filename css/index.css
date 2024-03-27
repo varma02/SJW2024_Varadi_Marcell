@@ -134,4 +134,8 @@ footer h3 {
 		bottom: 0.2rem;
 		padding: 0 1rem;
 	}
+
+	.image-grid {
+		aspect-ratio: 6 / 5;
+	}
 }
